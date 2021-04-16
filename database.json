@@ -1,0 +1,42 @@
+{
+  "protected_resources": {
+    "users": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+    ]
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Hoang Minh",
+      "email": "minhh@gmail.com",
+      "password": "minh12345",
+      "avatar": "http://192.168.1.65:3000/uploads/avatar2.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "parentId": 0,
+      "userId": 2,
+      "articleUrl": "aHR0cHM6Ly93d3cuaWduLmNvbS9hcnRpY2xlcy9kcmFnb24tYWdlLTItd3JpdGVyLXJldmVhbHMtZXZlcnl0aGluZy1oZS13b3VsZC1maXgtYWJvdXQtYmlvd2FyZXMtZGl2aXNpdmUtc2VxdWVs",
+      "content": "Xâgj",
+      "id": 1
+    },
+    {
+      "parentId": 0,
+      "userId": 2,
+      "articleUrl": "aHR0cHM6Ly93d3cuaWduLmNvbS9hcnRpY2xlcy9wYWMtbWFuLTk5LXJldmlldw==",
+      "content": "abvcs",
+      "id": 2
+    }
+  ]
+}
